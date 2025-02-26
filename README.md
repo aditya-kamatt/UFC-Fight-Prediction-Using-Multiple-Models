@@ -42,11 +42,48 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
 After cloning the repository and installing the dependencies, you can follow these steps to run the project:
 
 - Preprocess the Data: Run the `UFC_Preprocessing.ipynb` and `UFC_Preprocessing2.ipynb` notebook to clean and preprocess the UFC fight dataset.
 - Train and Evaluate Models: Use the `UFC_Prediction_Models.ipynb` notebook to train the machine learning models and evaluate their performance.
 
-## Results
-The results of the project will showcase how each machine learning model performs in predicting UFC fight outcomes. The goal is to identify the most accurate and reliable model by comparing various metrics.
+## What I Learned
 
+### Fundamentals of Machine Learning & Data Analytics
+- **Data Collection & Preprocessing:**  
+  I learned how to gather and clean UFC fight data, ensuring consistency and quality for effective model training.
+
+- **Exploratory Data Analysis (EDA):**  
+  I developed the skills to perform EDA, uncovering trends and insights in the data that guided my feature selection and model design.
+
+### Model Building and Evaluation
+- **Multiple Machine Learning Models:**  
+  I experimented with various algorithms—such as logistic regression, decision trees, random forests, and ensemble methods—to predict fight outcomes. This allowed me to compare different approaches and determine which performed best.
+
+- **Feature Engineering:**  
+  I gained experience in crafting features from raw data, such as fighter statistics and historical performance, which significantly improved model accuracy.
+
+- **Model Evaluation Metrics:**  
+  I utilized metrics like accuracy, precision, recall, and ROC-AUC to evaluate and compare the performance of the models, ensuring that the chosen models were both robust and reliable.
+
+### Practical Implementation Skills
+- **Python Programming:**  
+  This project enhanced my proficiency in Python, especially using libraries like pandas for data manipulation, scikit-learn for model building, and matplotlib/seaborn for visualization.
+
+- **Automation and Scripting:**  
+  I developed scripts to automate tasks such as data preprocessing, model training, and evaluation, which streamlined the entire experimentation process.
+
+### Experimentation and Optimization
+- **Hyperparameter Tuning:**  
+  I experimented with different hyperparameters to optimize the models, learning how subtle changes can greatly affect performance.
+
+- **Cross-Validation Techniques:**  
+  I implemented cross-validation to ensure that the models were generalizable and could perform well on unseen data.
+
+### Insights into Sports Analytics
+- **Understanding Fight Dynamics:**  
+  By analyzing various factors influencing UFC fights, I gained deeper insights into the sport’s dynamics, which further informed my model design.
+
+- **Real-World Application of Predictive Analytics:**  
+  This project showcased how predictive models can be applied to real-world sports scenarios, potentially informing strategies and decisions in the sports analytics arena.
